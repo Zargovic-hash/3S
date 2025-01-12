@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Légal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+      <nav class="apple-nav">
+        <button class="hamburger" aria-label="Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button> 
+        <ul class="nav-list"> 
+          <li><img class="logo" src="./Ressources/Images/Logo.jpg" alt="logo 3S"></li>
+          <li><a href="index.html" aria-label="Accueil">Accueil</a></li>
+            <li><a href="qui-sommes-nous.html" aria-label="Qui sommes nous">Qui ommes nous</a></li>
+            <li><a href="#" aria-label="Actualités">Actualités</a></li>
+            <li><a href="base de données.html" aria-label="Base Documentaire">Base Documentaire</a></li>
+            <li><a href="contact.html" aria-label="Nous Contacter">Nous Contacter</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Retrouvez une Loi ou un Décret</h1>
+            <input type="text" id="search-input" placeholder="Rechercher des lois...">
+        </section>
+
+        <section class="categories">
+            <div class="card" data-category="environnement">
+               <h2>Environnement</h2>
+                <p>Explorez les lois relatives à la protection de l'environnement et de la biodiversité.</p>
+                <div><a href="environement.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="air">
+                <h2>Air</h2>
+                <p>Régulations sur la qualité de l'air et les émissions industrielles.</p>
+                <div><a href="Air.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="eau">
+                <h2>Eau</h2>
+                <p>Normes pour la gestion et la protection de l'eau potable et des ressources aquatiques.</p>
+                <div><a href="eau.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="dechets">
+                <h2>Déchets</h2>
+                <p>Directives concernant la gestion des déchets, le recyclage et la réduction des nuisances.</p>
+                <div><a href="Déchet.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="produits chimiques">
+                <h2>Produits chimiques</h2>
+                <p>Régulations sur la manipulation des produits chimiques et leur impact sur la santé et l'environnement.</p>
+                <div><a href="Produits chimiques.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="materiaux dangereux">
+                <h2>Matériels dangereux</h2>
+                <p>Politiques sur la gestion des matériaux dangereux et leur élimination sécurisée.</p>
+                <div><a href="mateirieres dangereuses.html" class="cta-link">Accédez</a></div>
+
+            </div>
+            <div class="card" data-category="securite au travail">
+                <h2>Sécurité au travail</h2>
+                <p>Lois et pratiques en matière de sécurité des employés sur leur lieu de travail.</p>
+                <div><a href="Sécurité au travail.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="securite industrielle">
+                <h2>Sécurité industrielle</h2>
+                <p>Normes de sécurité industrielle et de protection des travailleurs dans le secteur manufacturier.</p>
+                <div><a href="Sécurité industrille.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="situation d'urgence">
+                <h2>Situation d'urgence</h2>
+                <p>Préparation et réponse aux urgences industrielles et environnementales.</p>
+                <div><a href="situation d urgence.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="sante au travail">
+                <h2>Santé au travail</h2>
+                <p>Régulations de santé visant à protéger les travailleurs et améliorer leur bien-être.</p>
+                <div><a href="Santé au travail.html" class="cta-link">Accédez</a></div>
+            </div>
+        </section>
+
+        <section>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./Ressources/Images/veille S2 2024 img.PNG" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/12/veille-juridique-2eme-semestre-2024-francais.pdf">Veille environnementale S2 2024</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+        
+              <div class="carousel-item" data-bs-interval="20000">
+                <img src="./Ressources/Images/veille S2 2024 img.PNG" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/07/veille-juridique-1er-semestre-2024-francais.pdf">Veille environnementale S1 2024</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+        
+              <div class="carousel-item" data-bs-interval="30000">
+                <img src="./Ressources/Images/veille S2 2024 img.PNG" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/01/veille-juridique-2eme-semestre-2023-francais.pdf">Veille environnementale S2 2023</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+          
+        </main>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Répertoire Légal. Tous droits réservés.</p>
+        <p><a href="#" aria-label="Politique de confidentialité">Politique de confidentialité</a> | <a href="#" aria-label="Conditions d'utilisation">Conditions d'utilisation</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
