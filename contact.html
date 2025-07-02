@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Légal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm custom-navbar">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./Ressources/Images/Logo.jpg" alt="logo 3S" class="logo me-2" style="height:40px;" loading="lazy">
+          <span class="fw-bold text-primary">Smart Safety Services</span>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="qui-sommes-nous.html">Qui sommes nous</a></li>
+            <li class="nav-item"><a class="nav-link" href="actualités.html">Actualités</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="baseDocDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Base Documentaire
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="baseDocDropdown">
+                <li><a class="dropdown-item" href="environement.html">Environnement</a></li>
+                <li><a class="dropdown-item" href="Air.html">Réglementation de l'air</a></li>
+                <li><a class="dropdown-item" href="eau.html">Réglementation de l'eau</a></li>
+                <li><a class="dropdown-item" href="déchet.html">Déchet</a></li>
+                <li><a class="dropdown-item" href="Produit chimique.html">Produit chimique</a></li>
+                <li><a class="dropdown-item" href="sécurité.html">Sécurité</a></li>
+                <li><a class="dropdown-item" href="sécurité industrielle.html">Sécurité industrielles</a></li>
+                <li><a class="dropdown-item" href="situation d'urgence.html">Plans d'urgences</a></li>
+                <li><a class="dropdown-item" href="SST.html">Santé au travail</a></li>
+                <li><a class="dropdown-item" href="#">Outils d'audit de conformité réglementaire</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Nous Contacter</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+  <section id="contact" class="section py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Informations de contact -->
+        <div class="col-md-6">
+          <h2 class="mb-4">Contactez-nous</h2>
+          <p>
+            N'hésitez pas à nous contacter pour toute question ou demande d'information. 
+            Nous sommes à votre disposition pour vous accompagner dans vos projets.
+          </p>
+          <ul class="list-unstyled contact-info">
+            <li>
+              <i class="fas fa-map-marker-alt"></i> 
+              <strong>Adresse :</strong> Cité Makoudi 1, El Alia, El Mohamadia, Alger
+            </li>
+            <li>
+              <i class="fas fa-phone"></i> 
+              <strong>Téléphone :</strong> 
+              <a href="tel:+213557038900">+213 557 038 900</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i> 
+              <strong>Email :</strong> 
+              <a href="mailto:echaouiseifeddine@gmail.com">echaouiseifeddine@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+  </section>
+  <section id="contact-services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">formulaire de contact</h2>
+      <p class="text-center mb-5">Pour toute demande d'information ou de devis, veuillez compléter le formulaire ci-dessous. Notre équipe vous répondra dans les plus brefs délais.</p>
+      <div id="services-container" class="row"></div>
+  
+      <form id="contact-form" class="mt-4">
+        <div class="form-row">
+          <div class="form-group col-md-6"><label for="first-name">Prénom *</label><input type="text" class="form-control" id="first-name" name="first-name" required></div>
+          <div class="form-group col-md-6"><label for="last-name">Nom *</label><input type="text" class="form-control" id="last-name" name="last-name" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6"><label for="phone">Numéro de téléphone *</label><input type="tel" class="form-control" id="phone" name="phone" required></div>
+          <div class="form-group col-md-6"><label for="email">Email professionnel</label><input type="email" class="form-control" id="email" name="email"></div>
+        </div>
+        <div class="form-group"><label for="company">Nom de l’entreprise *</label><input type="text" class="form-control" id="company" name="company" required></div>
+        <div class="form-group"><label for="service">Service souhaité *</label><select class="form-control" id="service" name="service" required><option value="">Sélectionnez un service</option></select></div>
+        <div class="form-group"><label for="message">Votre message *</label><textarea class="form-control" id="message" name="message" rows="5" required></textarea></div>
+        <div class="form-group form-check"><input type="checkbox" class="form-check-input" id="privacy-policy" name="privacy-policy" required><label class="form-check-label" for="privacy-policy"><a href="politiquue de confidentialité & ocndition d'utilisation.html">J'accepte la politique de confidentialité *</a></label></div>
+        <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Envoyer</button></div>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Script.js -->
+  <script>
+    const services = [
+      { name: "Autorisation d'exploitation", description: "Accompagnement pour vos démarches d'autorisation industrielle." },
+      { name: "Audit de conformité réglementaire", description: "Vérification de la conformité aux normes environnementales et de sécurité." },
+      { name: "Formation", description: "Sessions de formation en gestion des risques et conformité HSE." },
+      { name: "Plan d'intervention interne", description: "Élaboration de plans d'urgence pour incidents industriels." },
+      { name: "Conception de plan HSE", description: "Création de plans HSE adaptés à votre activité." },
+      { name: "Solution pour entreprise", description: "Solutions sur mesure pour la gestion des risques." },
+      { name: "Gestion des déchets industriels", description: "Optimisation des processus pour réduire l'impact environnemental." },
+      { name: "Analyse des risques industriels", description: "Évaluation des risques pour prévenir les accidents." },
+      { name: "Plan de gestion des catastrophes", description: "Stratégies pour gérer les catastrophes naturelles et industrielles." },
+      { name: "Mesures d'émissions et contrôle environnemental", description: "Surveillance des émissions pour respecter les normes." },
+      { name: "Accompagnement pour certification ISO", description: "Assistance pour les certifications ISO 9001, 14001 et 45001." },
+      { name: "Systèmes d'information environnementaux", description: "Conception de systèmes pour gérer les données environnementales." },
+      { name: "Autres", description: "contactez nous pour demander d'autre expertises." }
+    ];
+  
+    const servicesContainer = document.getElementById('services-container');
+    const serviceSelect = document.getElementById('service');
+  
+    services.forEach(service => {
+
+      // Ajout des options au menu déroulant
+      const option = document.createElement('option');
+      option.value = service.name.toLowerCase().replace(/\s+/g, '-');
+      option.textContent = service.name;
+      serviceSelect.appendChild(option);
+    });
+  </script>
+
+
+<div style="text-align: center; margin: 40px 0;">
+  <h2 style="font-size: 1.8em; font-weight: bold; margin-bottom: 20px; color: #333;">
+      📍 Localisation : SMART SAFETY SERVICES
+  </h2>
+  <div style="display: flex; justify-content: center; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1772229736794!2d3.180662311018048!3d36.73378387132563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e51878c11ba49%3A0xa56b835127ce8aae!2sSahla%20Coworking%20Training%20%26%20Consulting!5e1!3m2!1sfr!2sdz!4v1740226221076!5m2!1sfr!2sdz" 
+          width="800" 
+          height="500" 
+          style="border: 0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+  <p style="margin-top: 20px; font-size: 1.1em; color: #555;">
+      Retrouvez-nous facilement grâce à la carte ci-dessus.
+  </p>
+</div>
+</main>
+
+<footer>
+  <div class="footer-container">
+      <a href="index.html" aria-label="Accueil"><img class="logo" src="./Ressources/Images/logo.png" alt="logo 3S"></a>
+
+
+    <div class="footer-section">
+      <h3>Accès rapide</h3>
+      <ul>
+        <li><a href="index.html" aria-label="Accueil">Accueil</a></li>
+        <li><a href="qui-sommes-nous.html" aria-label="Qui sommes nous">Qui sommes nous</a></li>
+        <li><a href="contact.html" aria-label="Nous contacter">Nous contacter</a></li>
+        <li><a href="base de données.html" aria-label="base de données">base de données</a></li>
+        <li><a href="actualités.html" aria-label="actualités">Actualités</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contacez nous</h3>
+      <ul>
+        <li><a href="contact.html" aria-label="Etude de danger & etude d'impact">Etude de danger & etude d'impact</a></li>
+        <li><a href="contact.html" aria-label="plan interne d'intervention PII">Plan interne d'intervention </a></li>
+        <li><a href="contact.html" aria-label="Formation a la carte">Formation a la carte</a></li>
+        <li><a href="contact.html" aria-label="Audit environnementale">Audit environnementale</a></li>
+        <li><a href="contact.html" aria-label="outil d'audit">outil d'audit</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-media">
+        <a href="https://web.facebook.com/profile.php?id=61559840202955" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/103219990/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BpSVXEoCgQDqFNk9sG5QFMA%3D%3D" target="_blank" aria-label="Suivez-nous sur LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+
+</footer>
+
+<div id="underfooter">
+
+  <p>&copy; 2025 SMART SAFETY SERVICES | 3S </p>
+  <p>
+    <a id="underfooter" href="politiquue de confidentialité ocndition d'utilisation.html" aria-label="Politique de confidentialité">Politique de confidentialité</a></p>
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

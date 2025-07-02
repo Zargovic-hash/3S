@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Safety Services | 3S</title>
+    <meta name="description" content="Smart Safety Services (3S) - Gestion des risques industriels et environnementaux en Algérie.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script>
+    window.addEventListener("load",function(){
+    window.cookieconsent.initialise({
+      palette: { popup: { background: "#23272b" }, button: { background: "#0275d8" } },
+      theme: "classic",
+      content: { message: "Ce site utilise des cookies pour améliorer votre expérience.", dismiss: "OK", link: "En savoir plus", href: "politiquue de confidentialité ocndition d'utilisation.html" }
+    })});
+    </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm custom-navbar">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./Ressources/Images/Logo.jpg" alt="logo 3S" class="logo me-2" style="height:40px;" loading="lazy">
+          <span class="fw-bold text-primary">Smart Safety Services</span>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="qui-sommes-nous.html">Qui sommes nous</a></li>
+            <li class="nav-item"><a class="nav-link" href="actualités.html">Actualités</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="baseDocDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Base Documentaire
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="baseDocDropdown">
+                <li><a class="dropdown-item" href="environement.html">Environnement</a></li>
+                <li><a class="dropdown-item" href="Air.html">Réglementation de l'air</a></li>
+                <li><a class="dropdown-item" href="eau.html">Réglementation de l'eau</a></li>
+                <li><a class="dropdown-item" href="déchet.html">Déchet</a></li>
+                <li><a class="dropdown-item" href="Produit chimique.html">Produit chimique</a></li>
+                <li><a class="dropdown-item" href="sécurité.html">Sécurité</a></li>
+                <li><a class="dropdown-item" href="sécurité industrielle.html">Sécurité industrielles</a></li>
+                <li><a class="dropdown-item" href="situation d'urgence.html">Plans d'urgences</a></li>
+                <li><a class="dropdown-item" href="SST.html">Santé au travail</a></li>
+                <li><a class="dropdown-item" href="outil_audit.html">Outils d'audit de conformité réglementaire</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Nous Contacter</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+  <section id="hero" class="d-flex align-items-center justify-content-center text-center" style="background: url('./Ressources/Images/banner.avif') center/cover; min-height: 60vh; position: relative;">
+    <div style="background: rgba(0,0,0,0.5); padding: 0rem; border-radius: 1rem;">
+      <h1 class="text-white display-4 mb-3">Maîtrisez vos risques, optimisez votre performance.</h1>
+      <p class="text-white lead mb-4">Nous vous accompagnons dans la gestion des risques industriels et environnementaux pour une performance durable.</p>
+      <a class="btn btn-lg btn-primary shadow" href="contact.html">Contactez-nous</a>
+    </div>
+  </section>
+
+  <section id="acces-direct" class="bg-light">
+    <div class="container">
+        <h2>Accès Direct</h2>
+            <!-- Base de données -->
+            <div class="access-item">
+              <i class="fas fa-database access-icon"></i>
+              <h3>Base de données</h3>
+              <p>Obtenez toute la réglementation HSE en Algérie avec un simple clic.</p>
+              <a href="base de données.html" class="cta-link">En savoir plus</a>
+            </div>
+  
+        <div class="access-grid">
+            <!-- Autorisation d'exploitation -->
+            <div class="access-item card">
+                <i class="fas fa-industry access-icon"></i>
+                <h3>Autorisation d'exploitation</h3>
+                <p>Obtenez les démarches et conseils pour vos autorisations légales d'exploitation industrielle.</p>
+                <a href="contact.html" class="cta-link">Obetnir votre devis</a>
+            </div>
+            <!-- Audit de conformité réglementaire -->
+            <div class="access-item card">
+                <i class="fas fa-clipboard-check access-icon"></i>
+                <h3>Audit de conformité réglementaire</h3>
+                <p>Analysez votre conformité vis-à-vis des lois environnementales et de sécurité.</p>
+                <a href="contact.html" class="cta-link">Obetnir votre devis</a>
+            </div>
+            <!-- Formation -->
+            <div class="access-item card">
+                <i class="fas fa-chalkboard-teacher access-icon"></i>
+                <h3>Formation</h3>
+                <p>Accédez à nos formations professionnelles en gestion des risques et conformité HSE.</p>
+                <a href="contact.html" class="cta-link">Obetnir votre devis</a>
+            </div>
+            <!-- Plan d'intervention interne -->
+            <div class="access-item card">
+                <i class="fas fa-bullhorn access-icon"></i>
+                <h3>Plan d'intervention interne</h3>
+                <p>Élaborez des plans d'urgence pour une réponse efficace aux incidents industriels.</p>
+                <a href="contact.html" class="cta-link">Obetnir votre devis</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <video src="./Ressources/Images/tomp3.cc - Conditions de survenue dun incendie_1080p.mp4" class="d-block" style="width: 100%; height: auto;" controls></video>
+                <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="20000">
+              <video src="./Ressources/Images/The Lockout Tagout Procedures.mp4" class="d-block" style="width: 100%; height: auto;" controls ></video>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="30000">
+                <img src="./Ressources/Images/formation HSE.png" class="d-block" style="width: 100%; height: auto;" alt="Formation HSE Banner" loading="lazy">
+                <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+
+<section id="dossiers-thematiques">
+  <div class="container">
+    <h2>Dossiers thématiques</h2>
+    <p>Explorez nos analyses approfondies sur des sujets clés liés à l'HSE en Algérie.</p>
+    <div class="dossier-grid">
+      <!-- Dossier 1 -->
+      <div class="dossier-item card">
+        <h3>Gestion des déchets industriels</h3>
+        <p class="summary">Les enjeux et solutions pour une gestion efficace et durable des déchets industriels.</p>
+        <a href="Actualités.html" class="btn-decouvrir">Découvrir</a>
+      </div>
+      <!-- Dossier 2 -->
+      <div class="dossier-item card">
+        <h3>Sécurité des installations classées</h3>
+        <p class="summary">Assurer la sécurité des sites industriels à haut risque.</p>
+
+        <a href="Actualités.html" class="btn-decouvrir">Découvrir</a>
+      </div>
+      <!-- Dossier 3 -->
+      <div class="dossier-item card" >
+        <h3>Protection des ressources en eau</h3>
+        <p class="summary">Préserver l’eau face aux défis environnementaux et industriels.</p>
+
+        <a href="Actualités.html" class="btn-decouvrir">Découvrir</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col">
+      <h2 class="counter" data-target="250">0</h2>
+      <p>Clients satisfaits</p>
+    </div>
+    <div class="col">
+      <h2 class="counter" data-target="120">0</h2>
+      <p>Audits réalisés</p>
+    </div>
+    <div class="col">
+      <h2 class="counter" data-target="15">0</h2>
+      <p>Experts HSE</p>
+    </div>
+  </div>
+</section>
+<script>
+document.querySelectorAll('.counter').forEach(counter => {
+  let update = () => {
+    let target = +counter.getAttribute('data-target');
+    let count = +counter.innerText;
+    let inc = Math.ceil(target / 100);
+    if(count < target) {
+      counter.innerText = count + inc;
+      setTimeout(update, 20);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  update();
+});
+</script>
+
+<section class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form action="https://YOUR_MAILCHIMP_URL" method="post" target="_blank" class="d-flex">
+        <input type="email" name="EMAIL" class="form-control" placeholder="Votre email" required>
+        <button type="submit" class="btn btn-primary ms-2">S'inscrire à la newsletter</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div class="footer-container">
+      <a href="index.html" aria-label="Accueil"><img class="logo" src="./Ressources/Images/logo.png" alt="logo 3S" loading="lazy"></a>
+
+
+    <div class="footer-section">
+      <h3>Accès rapide</h3>
+      <ul>
+        <li><a href="index.html" aria-label="Accueil">Accueil</a></li>
+        <li><a href="qui-sommes-nous.html" aria-label="Qui sommes nous">Qui sommes nous</a></li>
+        <li><a href="contact.html" aria-label="Nous contacter">Nous contacter</a></li>
+        <li><a href="base de données.html" aria-label="base de données">base de données</a></li>
+        <li><a href="actualités.html" aria-label="actualités">Actualités</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contacez nous</h3>
+      <ul>
+        <li><a href="contact.html" aria-label="Etude de danger & etude d'impact">Etude de danger & etude d'impact</a></li>
+        <li><a href="contact.html" aria-label="plan interne d'intervention PII">Plan interne d'intervention </a></li>
+        <li><a href="contact.html" aria-label="Formation a la carte">Formation a la carte</a></li>
+        <li><a href="contact.html" aria-label="Audit environnementale">Audit environnementale</a></li>
+        <li><a href="contact.html" aria-label="outil d'audit">outil d'audit</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-media">
+        <a href="https://web.facebook.com/profile.php?id=61559840202955" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/103219990/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BpSVXEoCgQDqFNk9sG5QFMA%3D%3D" target="_blank" aria-label="Suivez-nous sur LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+
+</footer>
+
+<div id="underfooter">
+
+  <p>&copy; 2025 SMART SAFETY SERVICES | 3S </p>
+  <p>
+    <a id="underfooter" href="politiquue de confidentialité ocndition d'utilisation.html" aria-label="Politique de confidentialité">Politique de confidentialité</a></p>
+</div>
+<button id="darkModeToggle" class="btn btn-outline-secondary position-fixed" style="top:1rem; right:1rem; z-index:999;">🌙</button>
+<script>
+  document.getElementById('darkModeToggle').onclick = function() {
+    document.body.classList.toggle('dark-mode');
+  };
+</script>
+<style>
+  .dark-mode {
+    background: #181a1b !important;
+    color: #f4f4f4 !important;
+  }
+  .dark-mode .card, .dark-mode .container, .dark-mode .navbar {
+    background: #23272b !important;
+    color: #f4f4f4 !important;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    let carousel = document.getElementById("carouselExampleDark");
+
+    if (!carousel) {
+        console.error("Carousel non trouvé !");
+        return;
+    }
+    carousel.addEventListener("slide.bs.carousel", function () {
+        console.log("Le carousel change de slide !");
+        let videos = document.querySelectorAll("video");
+        videos.forEach(video => {
+            video.pause();
+            video.currentTime = 0;
+        });
+    });
+});
+</script>
+<!-- Example: Tawk.to live chat -->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/YOUR_ID/1h0xxxxxx';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+</body>
+</html>

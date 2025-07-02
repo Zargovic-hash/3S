@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Légal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm custom-navbar">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./Ressources/Images/Logo.jpg" alt="logo 3S" class="logo me-2" style="height:40px;" loading="lazy">
+          <span class="fw-bold text-primary">Smart Safety Services</span>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="qui-sommes-nous.html">Qui sommes nous</a></li>
+            <li class="nav-item"><a class="nav-link" href="actualités.html">Actualités</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="baseDocDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Base Documentaire
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="baseDocDropdown">
+                <li><a class="dropdown-item" href="environement.html">Environnement</a></li>
+                <li><a class="dropdown-item" href="Air.html">Réglementation de l'air</a></li>
+                <li><a class="dropdown-item" href="eau.html">Réglementation de l'eau</a></li>
+                <li><a class="dropdown-item" href="déchet.html">Déchet</a></li>
+                <li><a class="dropdown-item" href="Produit chimique.html">Produit chimique</a></li>
+                <li><a class="dropdown-item" href="sécurité.html">Sécurité</a></li>
+                <li><a class="dropdown-item" href="sécurité industrielle.html">Sécurité industrielles</a></li>
+                <li><a class="dropdown-item" href="situation d'urgence.html">Plans d'urgences</a></li>
+                <li><a class="dropdown-item" href="SST.html">Santé au travail</a></li>
+                <li><a class="dropdown-item" href="outil_audit.html">Outils d'audit de conformité réglementaire</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Nous Contacter</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Retrouvez une Loi ou un Décret</h1>
+            <input type="text" id="search-input" placeholder="Rechercher des lois...">
+        </section>
+
+        <section class="categories">
+            <div class="card" data-category="environnement">
+               <h2>Environnement</h2>
+                <p>Explorez les lois relatives à la protection de l'environnement et de la biodiversité.</p>
+                <div><a href="environement.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="air">
+                <h2>Air</h2>
+                <p>Régulations sur la qualité de l'air et les émissions industrielles.</p>
+                <div><a href="Air.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="eau">
+                <h2>Eau</h2>
+                <p>Normes pour la gestion et la protection de l'eau potable et des ressources aquatiques.</p>
+                <div><a href="eau.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="dechets">
+                <h2>Déchets</h2>
+                <p>Directives concernant la gestion des déchets, le recyclage et la réduction des nuisances.</p>
+                <div><a href="Déchet.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="produits chimiques">
+                <h2>Produits chimiques</h2>
+                <p>Régulations sur la manipulation des produits chimiques et leur impact sur la santé et l'environnement.</p>
+                <div><a href="Produit chimique.html" class="cta-link">Accédez</a></div>
+            </div>
+
+
+            </div>
+            <div class="card" data-category="securite au travail">
+                <h2>Sécurité au travail</h2>
+                <p>Lois et pratiques en matière de sécurité des employés sur leur lieu de travail.</p>
+                <div><a href="Sécurité.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="securite industrielle">
+                <h2>Sécurité industrielle</h2>
+                <p>Normes de sécurité industrielle et de protection des travailleurs dans le secteur manufacturier.</p>
+                <div><a href="Sécurité industrille.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="situation d'urgence">
+                <h2>Situation d'urgence</h2>
+                <p>Préparation et réponse aux urgences industrielles et environnementales.</p>
+                <div><a href="situation d urgence.html" class="cta-link">Accédez</a></div>
+            </div>
+            <div class="card" data-category="sante au travail">
+                <h2>Santé au travail</h2>
+                <p>Régulations de santé visant à protéger les travailleurs et améliorer leur bien-être.</p>
+                <div><a href="SST.html" class="cta-link">Accédez</a></div>
+            </div>
+        </section>
+
+        <section>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./Ressources/Images/veille S2 2024 img.PNG" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/12/veille-juridique-2eme-semestre-2024-francais.pdf">Veille environnementale S2 2024</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+        
+              <div class="carousel-item" data-bs-interval="20000">
+                <img src="./Ressources/Images/veille S2 2024 img.PNG" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/07/veille-juridique-1er-semestre-2024-francais.pdf">Veille environnementale S1 2024</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+        
+              <div class="carousel-item" data-bs-interval="30000">
+                <img src="./Ressources/Images/veille S2 2024 img.png" class="d-block" style="width: 100%; height: auto;" alt="Veille S2 2024">
+                <h5><a style="color: blue;" href="https://www.me.gov.dz/wp-content/uploads/2024/01/veille-juridique-2eme-semestre-2023-francais.pdf">Veille environnementale S2 2023</a></h5>
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+          
+        </main>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+          <a href="index.html" aria-label="Accueil"><img class="logo" src="./Ressources/Images/logo.png" alt="logo 3S"></a>
+    
+    
+        <div class="footer-section">
+          <h3>Accès rapide</h3>
+          <ul>
+            <li><a href="index.html" aria-label="Accueil">Accueil</a></li>
+            <li><a href="qui-sommes-nous.html" aria-label="Qui sommes nous">Qui sommes nous</a></li>
+            <li><a href="contact.html" aria-label="Nous contacter">Nous contacter</a></li>
+            <li><a href="base de données.html" aria-label="base de données">base de données</a></li>
+            <li><a href="actualités.html" aria-label="actualités">Actualités</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Contacez nous</h3>
+          <ul>
+            <li><a href="contact.html" aria-label="Etude de danger & etude d'impact">Etude de danger & etude d'impact</a></li>
+            <li><a href="contact.html" aria-label="plan interne d'intervention PII">Plan interne d'intervention </a></li>
+            <li><a href="contact.html" aria-label="Formation a la carte">Formation a la carte</a></li>
+            <li><a href="contact.html" aria-label="Audit environnementale">Audit environnementale</a></li>
+            <li><a href="contact.html" aria-label="outil d'audit">outil d'audit</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Suivez-nous</h3>
+          <div class="social-media">
+            <a href="https://web.facebook.com/profile.php?id=61559840202955" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/103219990/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BpSVXEoCgQDqFNk9sG5QFMA%3D%3D" target="_blank" aria-label="Suivez-nous sur LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    
+
+    </footer>
+
+    <div id="underfooter">
+    
+      <p>&copy; 2025 SMART SAFETY SERVICES | 3S </p>
+      <p>
+        <a id="underfooter" href="politiquue de confidentialité ocndition d'utilisation.html" aria-label="Politique de confidentialité">Politique de confidentialité</a></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

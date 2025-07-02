@@ -1,0 +1,7 @@
+exports.getLaws = (req, res) => {
+  // Example static data; replace with DB logic later
+  res.json([
+    { id: 1, title: "Law 01", description: "Description of Law 01" },
+    { id: 2, title: "Law 02", description: "Description of Law 02" }
+  ]);
+};
